@@ -16,7 +16,7 @@ const songs = [
   {
     title:"Bajrang Raj",
     artist:"Bajrang Sahu",
-    src:"OIIAOIIA Dog(MP3_320K).mp3"
+    src:"cat-song.mp3"
   }
 ];
 
