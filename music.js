@@ -7,7 +7,7 @@ const songs = [
   {
     title: "Sample Song 2",
     artist: "Artist Two",
-    src: "songs/song2.mp3"
+    src: "bella-chao.mp3"
   },
   {
     title: "Sample Song 3",
@@ -26,12 +26,7 @@ const currentTimeEl = document.getElementById('currentTime');
 const durationEl = document.getElementById('duration');
 const playlist = document.getElementById('playlist');
 const songs =[
-  {
-    title :"Bedardi se pyar ka",
-      artist:"jubin nautiyal",
-src:"ID3"
-}
-];
+  
 function loadSong(song) {
   title.textContent = song.title;
   artist.textContent = song.artist;
