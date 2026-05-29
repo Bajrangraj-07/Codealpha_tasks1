@@ -17,7 +17,12 @@ const songs = [
     title:"Bajrang Raj",
     artist:"Bajrang Sahu",
     src:"https://raw.githubusercontent.com/Bajrangraj-07/Codealpha_tasks1/main/cat-song.mp3"
-  }
+  },
+  {
+  title:"pao ki jutti",
+  artist:"Bajrang Sahu",
+  src:"https://github.com/Bajrangraj-07/Codealpha_tasks1/raw/refs/heads/main/Paon%20Ki%20Jutti(MP3_320K).mp3"
+}
 ];
 
 let currentSong = 0;
