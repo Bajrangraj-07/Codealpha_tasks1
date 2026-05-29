@@ -12,6 +12,11 @@ const songs = [
     title: "Bella Ciao",
     artist: "Artist",
     src: "https://raw.githubusercontent.com/Bajrangraj-07/Codealpha_tasks1/main/bella-chao.mp3"
+  },
+  {
+    title:"Bajrang Raj",
+    artist:"Bajrang Sahu",
+    src:""
   }
 ];
 
