@@ -7,7 +7,7 @@ const songs = [
   {
     title: "Sample Song 2",
     artist: "Artist Two",
-    src: "https://github.com/Bajrangraj-07/Codealpha_tasks1/blob/main/bella-chao.mp3"
+    src: "https://raw.githubusercontent.com/Bajrangraj-07/Codealpha_tasks1/main/bella-chao.mp3"
   },
   {
     title: "Sample Song 3",
