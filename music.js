@@ -25,7 +25,6 @@ const progress = document.getElementById('progress');
 const currentTimeEl = document.getElementById('currentTime');
 const durationEl = document.getElementById('duration');
 const playlist = document.getElementById('playlist');
-const songs =[
   
 function loadSong(song) {
   title.textContent = song.title;
