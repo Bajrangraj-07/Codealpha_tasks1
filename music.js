@@ -25,7 +25,13 @@ const progress = document.getElementById('progress');
 const currentTimeEl = document.getElementById('currentTime');
 const durationEl = document.getElementById('duration');
 const playlist = document.getElementById('playlist');
-
+cons songs =[
+  {
+    title :"Bedardi se pyar ka",
+      artist:"jubin nautiyal",
+src:"Bedardi Se Pyaar Ka Song_Jubin N_Meet B_Manoj M_Gurmeet C_Sherine S_Kaashish V _ Ashish P_ Bhushan K(MP3_160K).mp3"
+}
+];
 function loadSong(song) {
   title.textContent = song.title;
   artist.textContent = song.artist;
