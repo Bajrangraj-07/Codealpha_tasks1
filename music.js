@@ -16,7 +16,7 @@ const songs = [
   {
     title:"Bajrang Raj",
     artist:"Bajrang Sahu",
-    src:"cat-song.mp3"
+    src:"https://raw.githubusercontent.com/Bajrangraj-07/Codealpha_tasks1/main/cat-song.mp3"
   }
 ];
 
