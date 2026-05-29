@@ -24,7 +24,7 @@ const songs = [
   src:"https://github.com/Bajrangraj-07/Codealpha_tasks1/raw/refs/heads/main/Paon%20Ki%20Jutti(MP3_320K).mp3"
 },
   {
-tilte:"oooiii",
+title:"oooiii",
   artist:"bajrang raj",
   src:"https://github.com/Bajrangraj-07/Codealpha_tasks1/raw/main/OIIAOIIA%20Dog(MP3_320K).mp3"
 }
