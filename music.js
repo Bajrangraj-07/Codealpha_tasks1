@@ -1,22 +1,3 @@
-const songs = [
-  {
-    title: "Sample Song 1",
-    artist: "Artist One",
-    src: "songs/song1.mp3"
-  },
-  {
-    title: "Sample Song 2",
-    artist: "Artist Two",
-    src: "https://raw.githubusercontent.com/Bajrangraj-07/Codealpha_tasks1/main/bella-chao.mp3"
-  },
-  {
-    title: "Sample Song 3",
-    artist: "Artist Three",
-    src: "songs/song3.mp3"
-  }
-];
-
-let currentSong = 0;
 const audio = document.getElementById('audio');
 const title = document.getElementById('title');
 const artist = document.getElementById('artist');
@@ -25,7 +6,17 @@ const progress = document.getElementById('progress');
 const currentTimeEl = document.getElementById('currentTime');
 const durationEl = document.getElementById('duration');
 const playlist = document.getElementById('playlist');
-  
+
+const songs = [
+  {
+    title: "Bella Ciao",
+    artist: "Artist",
+    src: "https://raw.githubusercontent.com/Bajrangraj-07/Codealpha_tasks1/main/bella-chao.mp3"
+  }
+];
+
+let currentSong = 0;
+
 function loadSong(song) {
   title.textContent = song.title;
   artist.textContent = song.artist;
@@ -39,7 +30,7 @@ function togglePlay() {
     playPauseBtn.textContent = '⏸';
   } else {
     audio.pause();
-    playPauseBtn.textContent = '▶️';
+    playPauseBtn.textContent = '▶';
   }
 }
 
@@ -58,7 +49,7 @@ function prevSong() {
 }
 
 audio.addEventListener('timeupdate', updateProgress);
-audio.addEventListener('ended', nextSong); // autoplay
+audio.addEventListener('ended', nextSong);
 audio.addEventListener('loadedmetadata', () => {
   durationEl.textContent = formatTime(audio.duration);
 });
@@ -87,7 +78,6 @@ function changeVolume(value) {
   audio.volume = value;
 }
 
-// Playlist creation
 songs.forEach((song, index) => {
   const li = document.createElement('li');
   li.textContent = `${song.title} - ${song.artist}`;
@@ -107,5 +97,4 @@ function highlightPlaylist() {
   });
 }
 
-// Initial load
 loadSong(songs[currentSong]);
